@@ -1,0 +1,26 @@
+{
+  "name": "magicword.info",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "coffee server.coffee"
+  },
+  "author": "Christopher de Beer",
+  "license": "Not licenced",
+  "dependencies": {
+    "http-server": "~0.8.0",
+    "good-console": "~5.0.2",
+    "good": "~6.2.0",
+    "hapi": "~8.6.1",
+    "coffee-script": "~1.9.3",
+    "sqlite3": "~3.0.8",
+    "sequelize": "~3.3.2",
+    "handlebars": "~3.0.3"
+  },
+  "devDependencies": {
+    "sequelize-cli": "~1.7.0",
+    "js2coffee": "~2.0.4"
+  }
+}
