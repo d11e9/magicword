@@ -18,6 +18,7 @@ server.views
     relativeTo: __dirname
     path: 'views'
     layoutPath: 'views/layout'
+    partialsPath: 'views/partials'
     layout: 'default'
     
 
